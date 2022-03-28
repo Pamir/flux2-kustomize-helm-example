@@ -21,6 +21,6 @@ spec:
   values:
     service:
       type: NodePort
-     metrics:
-       serviceMonitor:
-         enabled: true
+    metrics:
+      serviceMonitor:
+        enabled: true
