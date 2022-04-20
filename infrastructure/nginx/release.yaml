@@ -25,4 +25,4 @@ spec:
       enabled: true
       serviceMonitor:
         enabled: true
-        interval: 20s
+        interval: 30s
