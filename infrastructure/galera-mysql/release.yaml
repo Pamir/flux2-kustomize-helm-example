@@ -11,7 +11,7 @@ spec:
         kind: HelmRepository
         name: bitnami
         namespace: galera
-      #version: "9.2.6"
+      version: "7.3.5"
   interval: 0h1m0s
   install:
     remediation:

@@ -7,11 +7,11 @@ spec:
   chart:
     spec:
       chart: cassandra
+      version: "9.2.6"
       sourceRef:
         kind: HelmRepository
         name: bitnami
         namespace: cassandra
-      #version: "9.2.6"
   interval: 0h1m0s
   install:
     remediation:
