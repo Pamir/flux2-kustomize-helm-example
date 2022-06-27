@@ -11,8 +11,9 @@ spec:
         kind: HelmRepository
         name: bitnami
         namespace: cassandra
-      version: "9.2.6"
+      #version: "9.2.6"
   interval: 1h0m0s
+  url: https://charts.bitnami.com/bitnami
   install:
     remediation:
       retries: 3
