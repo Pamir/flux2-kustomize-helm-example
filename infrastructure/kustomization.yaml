@@ -5,4 +5,4 @@ resources:
   - nginx
   - redis
   - cassandra
-  - galera-cassandra
+  - galera-mysql
