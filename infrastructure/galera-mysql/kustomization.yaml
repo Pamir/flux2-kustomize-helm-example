@@ -4,5 +4,6 @@ namespace: galera
 resources:
   - service-account.yaml
   - cluster-role-binding.yaml
+  - helm-repository.yaml
   - namespace.yaml
   - release.yaml
