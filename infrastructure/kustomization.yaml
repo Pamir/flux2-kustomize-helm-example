@@ -6,3 +6,4 @@ resources:
   - redis
   - cassandra
   - galera-mysql
+  - prometheus
