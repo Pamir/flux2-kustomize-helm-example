@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: prometheus
 resources:
   - namespace.yaml
-  - helm-repository.yaml
-  - release.yaml
   - service-account.yaml
   - cluster-role-binding.yaml
+  - helm-repository.yaml
+  - release.yaml
