@@ -12,3 +12,4 @@ spec:
         name: prometheus-community
         namespace: prometheus
       version: "36.2.0"
+  interval: 1h0m0s
