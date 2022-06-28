@@ -11,7 +11,7 @@ spec:
         kind: HelmRepository
         name: bitnami
         namespace: redis
-      version: "11.3.4"
+      version: "16.13.0"
   interval: 5m0s
   install:
     remediation:
