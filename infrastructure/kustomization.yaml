@@ -4,6 +4,6 @@ resources:
   - sources
   - nginx
   - redis
-  - cassandra
+  #- cassandra
   - galera-mysql
   - prometheus
