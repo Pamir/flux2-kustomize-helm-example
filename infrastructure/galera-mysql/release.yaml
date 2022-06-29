@@ -868,10 +868,10 @@ spec:
       serviceMonitor:
         ## @param metrics.serviceMonitor.enabled if `true`, creates a Prometheus Operator ServiceMonitor (also requires `metrics.enabled` to be `true`)
         ##
-        enabled: false
+        enabled: true
         ## @param metrics.serviceMonitor.namespace Optional namespace which Prometheus is running in
         ##
-        namespace: ""
+        namespace: "monitoring"
         ## @param metrics.serviceMonitor.jobLabel The name of the label on the target service to use as the job name in prometheus.
         ##
         jobLabel: ""
