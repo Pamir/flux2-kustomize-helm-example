@@ -871,7 +871,7 @@ spec:
         enabled: true
         ## @param metrics.serviceMonitor.namespace Optional namespace which Prometheus is running in
         ##
-        namespace: "monitoring"
+        namespace: "galera"
         ## @param metrics.serviceMonitor.jobLabel The name of the label on the target service to use as the job name in prometheus.
         ##
         jobLabel: ""
