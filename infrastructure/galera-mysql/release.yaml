@@ -783,7 +783,7 @@ spec:
     metrics:
       ## @param metrics.enabled Start a side-car prometheus exporter
       ##
-      enabled: false
+      enabled: true
       ## Bitnami MySQL Prometheus exporter image
       ## ref: https://hub.docker.com/r/bitnami/mysqld-exporter/tags/
       ## @param metrics.image.registry MariaDB Prometheus exporter image registry
