@@ -7,3 +7,5 @@ resources:
   - cassandra
   - galera-mysql
   - prometheus
+  - java-app
+  - azure-monitor
